@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400,400i,700');
+
+body {
+	margin: 0;
+	padding: 0;
+}
+.block-A {
+	width: 1500px;
+	height: 750px;
+	position: relative;
+	background-image: url(img/Warstwa.png);
+	filter: grayscale(100%);
+}
+.block-A img {
+	position: absolute;
+	left: 9px;
+	top:0;
+}
+h1 {
+	position: absolute;
+	top: 200px;
+	left: 179px;
+	font-family: 'Raleway', sans-serif;
+	color: #000;
+	font-size: 50px;
+	line-height: 30px;
+	font-weight: 700;
+}
+ span {
+	font-weight: 100;
+}
+.block-A p {
+	width: 444px;
+	height: 91px;
+	position: absolute;
+	top: 300px;
+	left: 179px;
+	font-family: 'Raleway', sans-serif;
+	color: #000;
+	font-size: 17px;
+	line-height: 25px;
+	font-weight: 400;
+	font-style: italic;
+}
+.line {
+	position: absolute;
+	top:448px;
+	left: 185px;
+}
+.menu{
+	position: absolute;
+	top: 38px;
+	right: 102px;
+	width: 92px;
+	height: 16px; 
+}
+.list {
+	padding-left: 67px;
+    padding-top: 22px;	
+}
